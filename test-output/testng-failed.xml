@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Registration Automation(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.nmc.testcases.two_seven.SampleTestCase">
+        <methods>
+          <include name="before_method"/>
+          <include name="setUp"/>
+          <include name="test_1"/>
+          <include name="after_method"/>
+        </methods>
+      </class> <!-- com.nmc.testcases.two_seven.SampleTestCase -->
+    </classes>
+  </test> <!-- Registration Automation(failed) -->
+</suite> <!-- Failed suite [Suite] -->

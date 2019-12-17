@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="10552" started-at="2019-12-17T12:56:26Z" finished-at="2019-12-17T12:56:37Z">
+    <groups>
+    </groups>
+    <test name="Registration Automation" duration-ms="10552" started-at="2019-12-17T12:56:26Z" finished-at="2019-12-17T12:56:37Z">
+      <class name="com.nmc.testcases.two_seven.SampleTestCase">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.nmc.testcases.two_seven.SampleTestCase@7ea37dbf]" name="setUp" is-config="true" duration-ms="6516" started-at="2019-12-17T12:56:26Z" finished-at="2019-12-17T12:56:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="before_method()[pri:0, instance:com.nmc.testcases.two_seven.SampleTestCase@7ea37dbf]" name="before_method" is-config="true" duration-ms="0" started-at="2019-12-17T12:56:33Z" finished-at="2019-12-17T12:56:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_method -->
+        <test-method status="PASS" signature="test_1()[pri:0, instance:com.nmc.testcases.two_seven.SampleTestCase@7ea37dbf]" name="test_1" duration-ms="3995" started-at="2019-12-17T12:56:33Z" finished-at="2019-12-17T12:56:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_1 -->
+        <test-method status="PASS" signature="after_method()[pri:0, instance:com.nmc.testcases.two_seven.SampleTestCase@7ea37dbf]" name="after_method" is-config="true" duration-ms="0" started-at="2019-12-17T12:56:37Z" finished-at="2019-12-17T12:56:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_method -->
+        <test-method status="PASS" signature="before_method()[pri:0, instance:com.nmc.testcases.two_seven.SampleTestCase@7ea37dbf]" name="before_method" is-config="true" duration-ms="1" started-at="2019-12-17T12:56:37Z" finished-at="2019-12-17T12:56:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_method -->
+        <test-method status="PASS" signature="test_2()[pri:0, instance:com.nmc.testcases.two_seven.SampleTestCase@7ea37dbf]" name="test_2" duration-ms="4" started-at="2019-12-17T12:56:37Z" finished-at="2019-12-17T12:56:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_2 -->
+        <test-method status="PASS" signature="after_method()[pri:0, instance:com.nmc.testcases.two_seven.SampleTestCase@7ea37dbf]" name="after_method" is-config="true" duration-ms="1" started-at="2019-12-17T12:56:37Z" finished-at="2019-12-17T12:56:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_method -->
+      </class> <!-- com.nmc.testcases.two_seven.SampleTestCase -->
+    </test> <!-- Registration Automation -->
+  </suite> <!-- Suite -->
+</testng-results>
