@@ -1,6 +1,6 @@
 package com.nmc.testcases.two_seven;
 
-import com.nmc.generic.BaseClass;
+import com.nmc.generics.BaseClass;
 import com.nmc.pages.login.UserLogin;
 import com.nmc.utilities.CommonActions;
 import com.nmc.utilities.ReadConfigFile;

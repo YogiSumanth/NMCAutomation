@@ -3,7 +3,7 @@ package com.nmc.utilities;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
-import com.nmc.generic.BaseClass;
+import com.nmc.generics.BaseClass;
 
 public class CommonActions extends BaseClass {
 

@@ -5,15 +5,18 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.nmc.generic.BaseClass;
+import com.nmc.generics.BaseClass;
 
 public class UserLogin extends BaseClass {
 
+	// PageFactory for initializing webElements
 	public UserLogin(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
 
-	// Web elements in the login page
+	/**
+	 * Web elements in the login page
+	 */
 	@FindBy(id = "userId")
 	public WebElement userName;
 
